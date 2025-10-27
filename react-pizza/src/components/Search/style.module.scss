@@ -1,0 +1,38 @@
+.root {
+  position: relative;
+  left: -100px;
+}
+
+.svgSearch {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+  left: 15px;
+  opacity: 0.3;
+}
+
+.field {
+  width: 300px;
+  padding: 12px 20px;
+  padding-left: 42px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  font-size: 16px;
+  &:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+.svgClose {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+  right: 15px;
+  opacity: 0.3;
+
+  &:hover{
+    opacity: 0.5;
+  }
+}
